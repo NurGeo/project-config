@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "test:unit": "jest -c jest.unit-config.js",
+    "test:comp": "jest -c jest.comp-config.js",
+    "test:int": "jest -c jest.int-config.js --runInBand",
+    "test:e2e": "jest -c jest.e2e-config.js --runInBand",
+    "test:all": "jest -c jest.all-config.js --runInBand"
+  }
+}
