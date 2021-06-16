@@ -1,4 +1,4 @@
-const intJestConfig = require('./src/project-files/base-configs/backend/jest.int-config');
+const intJestConfig = require('./src/base-configs/backend/jest.int-config');
 
 module.exports = {
   ...intJestConfig,

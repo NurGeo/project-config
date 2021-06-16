@@ -1,4 +1,4 @@
-const baseRules = require("./src/project-files/base-configs/backend/eslintrc");
+const baseRules = require("./src/base-configs/backend/eslintrc");
 
 module.exports = {
   ...baseRules,
