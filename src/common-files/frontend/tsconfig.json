@@ -1,0 +1,11 @@
+{
+  "extends": "./node_modules/@buildozer/project-configs/src/base-configs/frontend/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl" : "." ,
+    "outDir": "./dist",
+  },
+  "include": [
+    "src/**/*",
+    "node_modules/@buildozer/**/*",
+  ],
+}
