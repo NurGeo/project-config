@@ -1,5 +1,5 @@
 {
-  "extends": "./node_modules/@buildozer/project-configs/src/base-configs/frontend/tsconfig.json",
+  "extends": "@buildozer/project-configs/src/base-configs/frontend/tsconfig.json",
   "compilerOptions": {
     "outDir": "./dist",
   },

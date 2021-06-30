@@ -1,4 +1,4 @@
-var base = require("./node_modules/@buildozer/project-configs/src/base-configs/backend/babel.config");
+var base = require("@buildozer/project-configs/src/base-configs/backend/babel.config");
 
 module.exports = {
   ...base,
