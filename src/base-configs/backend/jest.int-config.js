@@ -1,7 +1,7 @@
-const jestIntConfig = require('../common/jest.int-config');
 const backendJestOptions = require('./backend-jest-options');
+const jestIntConfig = require('../common/jest.int-config');
 
 module.exports = {
-  ...jestIntConfig,
   ...backendJestOptions,
+  ...jestIntConfig,
 };

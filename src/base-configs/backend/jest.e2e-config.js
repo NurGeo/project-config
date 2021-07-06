@@ -1,7 +1,7 @@
-const jestE2eConfig = require('../common/jest.e2e-config');
 const backendJestOptions = require('./backend-jest-options');
+const jestE2eConfig = require('../common/jest.e2e-config');
 
 module.exports = {
-  ...jestE2eConfig,
   ...backendJestOptions,
+  ...jestE2eConfig,
 };
