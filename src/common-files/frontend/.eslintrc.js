@@ -1,4 +1,4 @@
-const baseRules = require("@buildozer/project-configs/src/base-configs/frontend/eslintrc");
+const baseRules = require("@rilata/project-configs/src/base-configs/frontend/eslintrc");
 
 module.exports = {
   ...baseRules,

@@ -4,6 +4,6 @@ module.exports = {
   rootDir: ".",
   moduleDirectories: ['node_modules'],
   transformIgnorePatterns: [
-    "node_modules/(?!(@buildozer)/)",
+    "node_modules/(?!(@rilata)/)",
   ],
 };

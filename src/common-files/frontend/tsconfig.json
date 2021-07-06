@@ -1,10 +1,10 @@
 {
-  "extends": "@buildozer/project-configs/src/base-configs/frontend/tsconfig.json",
+  "extends": "@rilata/project-configs/src/base-configs/frontend/tsconfig.json",
   "compilerOptions": {
     "outDir": "./dist",
   },
   "include": [
     "src/**/*",
-    "node_modules/@buildozer/**/*",
+    "node_modules/@rilata/**/*",
   ],
 }
