@@ -1,10 +1,10 @@
 {
   "name": "@rilata/project-configs",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "",
   "author": "GIS Expert",
   "license": "ISC",
-  "private": true,
+  "private": false,
   "repository": "git@github.com:gis-expert/project-configs.git",
   "scripts": {
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
@@ -37,6 +37,17 @@
     "eslint-plugin-jest": "^24.2.1",
     "jest": "^26.6.3",
     "ts-jest": "^26.4.4",
-    "typescript": "^4.0.5"
+    "typescript": "^4.0.5",
+
+    "@types/jasmine": "~3.6.0",
+    "jasmine-core": "~3.6.0",
+    "jasmine-spec-reporter": "~5.0.0",
+    "karma": "~5.1.0",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage": "~2.0.3",
+    "karma-jasmine": "~4.0.0",
+    "karma-jasmine-html-reporter": "^1.5.0",
+    "protractor": "~7.0.0",
+    "zone.js": "~0.11.4"
   }
 }

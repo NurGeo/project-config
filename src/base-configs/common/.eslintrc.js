@@ -4,7 +4,10 @@ module.exports = {
     project: 'tsconfig.json',
     sourceType: 'module',
   },
-  plugins: ['jest', '@typescript-eslint/eslint-plugin'],
+  plugins: [
+    // 'jest',
+    '@typescript-eslint/eslint-plugin'
+  ],
   extends: [
     'airbnb-base',
     'plugin:@typescript-eslint/recommended',
@@ -12,9 +15,9 @@ module.exports = {
   root: true,
   env: {
     node: true,
-    jest: true,
+    // jest: true,
     es6: true,
-    'jest/globals': true,
+    // 'jest/globals': true,
   },
   ignorePatterns: ['.eslintrc.ts', '*.js', 'dist/*'],
   rules: {

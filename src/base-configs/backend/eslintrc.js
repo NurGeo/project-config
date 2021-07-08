@@ -1,4 +1,4 @@
-const commonRules = require("../common/eslintrc");
+const commonRules = require("../common/.eslintrc");
 
 module.exports = {
   ...commonRules,
