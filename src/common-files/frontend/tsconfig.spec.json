@@ -1,0 +1,23 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "allowJs": true,
+    "outDir": "./dist/out-tsc",
+    "downlevelIteration": true,
+    "importHelpers": true,
+    "types": [
+      "jasmine"
+    ],
+  },
+  "files": [
+    "test.ts"
+  ],
+  "include": [
+    "src/**/*.u-test.ts",
+    "src/**/*.i-test.ts",
+    "src/**/*.c-test.ts",
+  ],
+}
