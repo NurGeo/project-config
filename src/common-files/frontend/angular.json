@@ -27,13 +27,11 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "test.ts",
+            "main": "angular.test-setup-file.ts",
             "tsConfig": "./tsconfig.spec.json",
             "karmaConfig": "./karma.conf.js",
             "include": [
-              "**/*.u-test.ts",
-              "**/*.i-test.ts",
-              "**/*.c-test.ts"
+              "src/**/*.?(c-|u-)test.ts"
             ]
           }
         },
@@ -72,13 +70,11 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "src/test.ts",
+            "main": "angular.test-setup-file.ts",
             "tsConfig": "./tsconfig.spec.json",
             "karmaConfig": "./karma.conf.js",
             "include": [
-              "**/*.u-test.ts",
-              "**/*.i-test.ts",
-              "**/*.c-test.ts"
+              "src/**/*.?(c-|u-)test.ts"
             ]
           }
         },

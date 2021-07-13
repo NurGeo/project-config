@@ -1,5 +1,9 @@
 {
   "extends": "./tsconfig.json",
-  "exclude": ["**/*test.ts"],
+  "exclude": ["**/*angular.test-setup-file.ts"],
+  "include": [
+    "src/**/*",
+    "node_modules/@rilata/**/*"
+  ]
 }
 

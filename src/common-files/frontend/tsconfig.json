@@ -18,9 +18,5 @@
         "src/app/view/mobile"
       ]
     }
-  },
-  "include": [
-    "src/**/*",
-    "node_modules/@rilata/**/*",
-  ],
+  }
 }

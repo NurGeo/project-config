@@ -1,9 +1,5 @@
-// const commonRules = require("../common/eslintrc");
-
 module.exports = {
-  // ...commonRules,
   env: {
-    node: true,
     es6: true,
     jasmine: true,
   },

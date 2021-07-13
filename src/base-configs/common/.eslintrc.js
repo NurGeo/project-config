@@ -5,7 +5,6 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: [
-    // 'jest',
     '@typescript-eslint/eslint-plugin'
   ],
   extends: [
@@ -13,12 +12,6 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
   ],
   root: true,
-  env: {
-    node: true,
-    // jest: true,
-    es6: true,
-    // 'jest/globals': true,
-  },
   ignorePatterns: ['.eslintrc.ts', '*.js', 'dist/*'],
   rules: {
     'import/extensions': 'off',
