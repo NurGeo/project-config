@@ -2,7 +2,6 @@ module.exports = {
   extends: ['../common/.eslintrc.js'],
   plugins: [
     'jest',
-    '@typescript-eslint/eslint-plugin',
   ],
   env: {
     node: true,
