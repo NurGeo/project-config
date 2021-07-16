@@ -6,7 +6,6 @@ module.exports = {
   overrides: [
     {
       extends: [
-        'plugin:jasmine/recommended',
         '../common/.eslintrc.js',
       ],
       files: [
@@ -22,7 +21,6 @@ module.exports = {
     },
     {
       extends: [
-        'plugin:jasmine/recommended',
         '../common/.eslintrc.js',
       ],
       files: [
