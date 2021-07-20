@@ -1,9 +1,12 @@
 {
   "extends": "./tsconfig.json",
-  "exclude": ["**/*angular.test-setup-file.ts"],
+  "exclude": [
+    "**/*angular.test-setup-file.ts",
+    "node_modules/@buildozer/**/*test.ts"
+  ],
   "include": [
     "src/**/*",
-    "node_modules/@rilata/**/*"
+    "node_modules/@rilata/**/*",
+    "node_modules/@buildozer/**/*"
   ]
 }
-
