@@ -67,5 +67,10 @@ module.exports = {
         'lines-around-directive': 'off',
       },
     },
+    {
+      files: ['*.html'],
+      parser: '@angular-eslint/template-parser',
+      rules: {},
+    },
   ],
 };
