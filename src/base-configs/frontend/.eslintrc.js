@@ -36,7 +36,6 @@ module.exports = {
     },
     {
       extends: [
-        'plugin:jasmine/recommended',
         '../common/.eslintrc.js',
       ],
       files: [
@@ -66,11 +65,6 @@ module.exports = {
         'import/first': 'off',
         'lines-around-directive': 'off',
       },
-    },
-    {
-      files: ['*.html'],
-      parser: '@angular-eslint/template-parser',
-      rules: {},
     },
   ],
 };

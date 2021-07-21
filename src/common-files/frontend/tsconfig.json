@@ -1,22 +1,3 @@
 {
   "extends": "@rilata/project-configs/src/base-configs/frontend/tsconfig.json",
-  "compilerOptions": {
-    "outDir": "./dist",
-    "lib": [
-      "es2018",
-      "dom"
-    ],
-    "baseUrl": ".",
-    "paths": {
-      "@angular/*": [
-        "./node_modules/@angular/*"
-      ],
-      "web": [
-        "src/app/view/web"
-      ],
-      "mobile": [
-        "src/app/view/mobile"
-      ]
-    }
-  }
 }
