@@ -31,7 +31,7 @@
             "tsConfig": "./tsconfig.spec.json",
             "karmaConfig": "./karma.conf.js",
             "include": [
-              "src/**/*.?(c-|u-)test.ts"
+              "src/**/*.?(c-|i-)test.ts"
             ]
           }
         },
@@ -74,7 +74,7 @@
             "tsConfig": "./tsconfig.spec.json",
             "karmaConfig": "./karma.conf.js",
             "include": [
-              "src/**/*.?(c-|u-)test.ts"
+              "src/**/*.?(c-|i-)test.ts"
             ]
           }
         },
