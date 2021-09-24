@@ -3,6 +3,7 @@
   "compilerOptions": {
     "outDir": "./out-tsc/app",
   },
+  "files": ["./polyfills.ts"],
   "exclude": [
     "**/*angular.test-setup-file.ts",
     "node_modules/@rilata/**/*test.ts",
@@ -12,6 +13,5 @@
   "include": [
     "src/**/*",
     "node_modules/@rilata/**/*",
-    "node_modules/@buildozer/**/*"
   ]
 }

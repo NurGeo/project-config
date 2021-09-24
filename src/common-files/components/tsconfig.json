@@ -1,9 +1,3 @@
 {
   "extends": "@rilata/project-configs/src/base-configs/frontend/tsconfig.json",
-  "include": [
-    "./node_modules/@rilata/**/*",
-    "./node_modules/@buildozer/**/*",
-    "src/**/*"
-  ],
-  "exclude": ["node_modules/@rilata/**/backend/**/*"]
 }

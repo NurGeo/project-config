@@ -7,14 +7,14 @@
     ],
   },
   "files": [
-    "../components/angular.test-setup-file.ts"
+    "polyfills.ts",
+    "angular.test-setup-file.ts"
   ],
   "include": [
     "src/**/*.test.ts",
     "src/**/*.i-test.ts",
     "src/**/*.c-test.ts",
     "node_modules/@rilata/**/*",
-    "node_modules/@buildozer/**/*"
   ],
   "exclude": [
     "node_modules/@rilata/**/*test.ts",
