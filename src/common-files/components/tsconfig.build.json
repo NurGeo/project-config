@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./out-tsc/app",
+  },
+  "exclude": [
+    "**/*angular.test-setup-file.ts",
+    "node_modules/@rilata/**/*test.ts",
+    "node_modules/@buildozer/**/*test.ts",
+    "node_modules/@rilata/**/backend/**/*"
+  ],
+  "include": [
+    "src/**/*",
+    "node_modules/@rilata/**/*",
+    "node_modules/@buildozer/**/*"
+  ]
+}
