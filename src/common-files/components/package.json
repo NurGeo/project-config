@@ -15,7 +15,23 @@
     "test:all": "ng test web",
     "test:e2e": "ng e2e"
   },
+  "main": "dist/bundles/<PROJECT_NAME>.umd.js",
+  "module": "dist/fesm2015/<PROJECT_NAME>.js",
+  "es2015": "dist/fesm2015/<PROJECT_NAME>.js",
+  "esm2015": "dist/esm2015/<PROJECT_NAME>.js",
+  "fesm2015": "dist/fesm2015/<PROJECT_NAME>.js",
+  "typings": "dist/<PROJECT_NAME>.d.ts",
+  "metadata": "dist/<PROJECT_NAME>.metadata.json",
+  "sideEffects": false,
   "dependencies": {
+    "@angular/animations": "~12.0.1",
+    "@angular/common": "~12.0.1",
+    "@angular/compiler": "~12.0.1",
+    "@angular/core": "~12.0.1",
+    "@angular/forms": "~12.0.1",
+    "@angular/platform-browser": "~12.0.1",
+    "@angular/platform-browser-dynamic": "~12.0.1",
+    "@angular/router": "~12.0.1",
     "reflect-metadata": "^0.1.13"
   },
   "devDependencies": {
