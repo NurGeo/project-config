@@ -6,7 +6,7 @@
     ],
   },
   "files": [
-    "../components/angular.test-setup-file.ts"
+    "../components/test-setup-file.ts"
   ],
   "include": [
     "src/**/*.test.ts",
