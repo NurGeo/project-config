@@ -18,6 +18,5 @@
   ],
   "exclude": [
     "node_modules/@rilata/**/*test.ts",
-    "node_modules/@buildozer/**/*test.ts"
   ]
 }
