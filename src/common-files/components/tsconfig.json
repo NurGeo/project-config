@@ -1,0 +1,12 @@
+{
+  "extends": "@rilata/project-configs/src/base-configs/frontend/tsconfig.json",
+  "exclude": [
+    "**/*angular.test-setup-file.ts",
+    "node_modules/@rilata/**/*test.ts",
+    "node_modules/@rilata/**/backend/**/*"
+  ],
+  "include": [
+    "src/**/*",
+    "node_modules/@rilata/**/*",
+  ]
+}
