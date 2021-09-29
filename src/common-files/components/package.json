@@ -7,7 +7,7 @@
   "private": true,
   "repository": "git@github.com:<REPO_ADDRESS>.git",
   "scripts": {
-    "lint": "eslint \"{src}/**/*.ts\" --fix",
+    "lint": "eslint \"src/**/*.ts\" --fix",
     "test:file": "ng test web --include",
     "test:unit": "ng test web --include src/**/*.test.ts",
     "test:comp": "ng test web --include src/**/*.c-test.ts",
