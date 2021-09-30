@@ -1,11 +1,9 @@
 {
   "extends": "./node_modules/@rilata/project-configs/src/base-configs/frontend/tsconfig.json",
-  "compilerOptions": {
-    "files": [
-      "test-setup-file.ts",
-      "pollifill.ts",
-    ],
-  },
+  "files": [
+    "test-setup-file.ts",
+    "pollifill.ts",
+  ],
   "include": [
     "./node_modules/@rilata",
     "./node_modules/@erp",
