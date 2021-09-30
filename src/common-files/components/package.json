@@ -15,6 +15,9 @@
     "test:all": "ng test components",
     "test:e2e": "ng e2e"
   },
+  "files": [
+    "dist"
+  ],
   "main": "dist/bundles/<PROJECT_NAME>.umd.js",
   "module": "dist/fesm2015/<PROJECT_NAME>.js",
   "es2015": "dist/fesm2015/<PROJECT_NAME>.js",
