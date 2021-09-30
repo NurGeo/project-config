@@ -1,5 +1,8 @@
 {
   "extends": "./node_modules/@rilata/project-configs/src/base-configs/frontend/tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+  },
   "files": [
     "test-setup-file.ts",
     "pollifill.ts",
@@ -11,6 +14,9 @@
     "src"
   ],
   "exclude": [
-    "node_modules/@rilata/project-configs"
+    "node_modules/@rilata/project-configs",
+    "./node_modules/@rilata/**/*.test.ts",
+    "./node_modules/@erp/**/*.test.ts",
+    "./node_modules/@buildozer/**/*.test.ts",
   ]
 }
