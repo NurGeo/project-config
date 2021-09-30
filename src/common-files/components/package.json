@@ -7,12 +7,12 @@
   "private": true,
   "repository": "git@github.com:<REPO_ADDRESS>.git",
   "scripts": {
-    "lint": "eslint \"src/**/*.ts\" --fix",
-    "test:file": "ng test web --include",
-    "test:unit": "ng test web --include src/**/*.test.ts",
-    "test:comp": "ng test web --include src/**/*.c-test.ts",
-    "test:int": "ng test web --include src/**/*.i-test.ts",
-    "test:all": "ng test web",
+    "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
+    "test:file": "ng test components --include",
+    "test:unit": "ng test components --include src/**/*.test.ts",
+    "test:comp": "ng test components --include src/**/*.c-test.ts",
+    "test:int": "ng test components --include src/**/*.i-test.ts",
+    "test:all": "ng test components",
     "test:e2e": "ng e2e"
   },
   "main": "dist/bundles/<PROJECT_NAME>.umd.js",
