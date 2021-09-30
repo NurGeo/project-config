@@ -7,7 +7,7 @@
   "private": true,
   "repository": "git@github.com:<REPO_ADDRESS>.git",
   "scripts": {
-    "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
+    "lint": "yarn eslint \"src/**/*.ts\" --fix",
     "build": "yarn tsc --project tsconfig.json",
     "test": "yarn jasmine --config=jasmine.json"
   },
@@ -26,9 +26,7 @@
     "@babel/preset-typescript": "^7.12.7",
     "@types/fetch-mock": "^7.3.5",
     "@types/jasmine": "^3.9.1",
-    "@types/jsonwebtoken": "^8.5.5",
     "@types/node": "^16.10.2",
-    "@types/uuid": "^8.3.1",
     "@typescript-eslint/eslint-plugin": "^4.6.1",
     "@typescript-eslint/parser": "^4.6.1",
     "babel-eslint": "^10.0.3",
