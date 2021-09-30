@@ -7,25 +7,15 @@
   "private": true,
   "repository": "git@github.com:<REPO_ADDRESS>.git",
   "scripts": {
-    "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
-    "test:file": "ng test components --include",
-    "test:unit": "ng test components --include src/**/*.test.ts",
-    "test:comp": "ng test components --include src/**/*.c-test.ts",
-    "test:int": "ng test components --include src/**/*.i-test.ts",
-    "test:all": "ng test components",
-    "test:e2e": "ng e2e"
+    "build": "yarn ng-packagr -p ng-package.json",
+    "lint": "yarn eslint \"src/**/*.ts\" --fix",
+    "test:file": "yarn ng test components --include",
+    "test:unit": "yarn ng test components --include src/**/*.test.ts",
+    "test:comp": "yarn ng test components --include src/**/*.c-test.ts",
+    "test:int": "yarn ng test components --include src/**/*.i-test.ts",
+    "test:all": "yarn ng test components",
+    "test:e2e": "yarn ng e2e"
   },
-  "files": [
-    "dist"
-  ],
-  "main": "dist/bundles/<PROJECT_NAME>.umd.js",
-  "module": "dist/fesm2015/<PROJECT_NAME>.js",
-  "es2015": "dist/fesm2015/<PROJECT_NAME>.js",
-  "esm2015": "dist/esm2015/<PROJECT_NAME>.js",
-  "fesm2015": "dist/fesm2015/<PROJECT_NAME>.js",
-  "typings": "dist/<PROJECT_NAME>.d.ts",
-  "metadata": "dist/<PROJECT_NAME>.metadata.json",
-  "sideEffects": false,
   "dependencies": {
     "@angular/animations": "~12.0.1",
     "@angular/common": "~12.0.1",
