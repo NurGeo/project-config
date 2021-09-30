@@ -1,15 +1,18 @@
 {
-  "extends": "@rilata/project-configs/src/base-configs/frontend/tsconfig.json",
+  "extends": "./node_modules/@rilata/project-configs/src/base-configs/frontend/tsconfig.json",
   "compilerOptions": {
     "files": [
       "test-setup-file.ts",
       "pollifill.ts",
-    ]
+    ],
   },
   "include": [
-    "./node_modules/@rilata/**/*",
-    "./node_modules/@buildozer/**/*",
-    "src/**/*"
+    "./node_modules/@rilata",
+    "./node_modules/@erp",
+    "./node_modules/@buildozer",
+    "src"
   ],
-  "exclude": ["node_modules/@rilata/**/backend/**/*"]
+  "exclude": [
+    "node_modules/@rilata/project-configs"
+  ]
 }

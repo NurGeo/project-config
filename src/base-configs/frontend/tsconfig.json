@@ -1,22 +1,14 @@
 {
   "extends": "../common/tsconfig.json",
   "compilerOptions": {
-    "outDir": "./dist",
+    "downlevelIteration": true,
+    "declaration": true,
     "lib": [
       "es2018",
       "dom"
     ],
-    "baseUrl": ".",
-    "paths": {
-      "@angular/*": [
-        "./node_modules/@angular/*"
-      ],
-      "web": [
-        "src/app/view/web"
-      ],
-      "mobile": [
-        "src/app/view/mobile"
-      ]
-    }
+    "types": [
+      "jasmine"
+    ]
   }
 }
