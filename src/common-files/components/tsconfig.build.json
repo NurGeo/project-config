@@ -5,12 +5,16 @@
   },
   "files": ["./polyfills.ts"],
   "exclude": [
-    "**/*angular.test-setup-file.ts",
+    "**/test-setup-file.ts",
     "node_modules/@rilata/**/*test.ts",
-    "node_modules/@rilata/**/backend/**/*"
+    "node_modules/@buildozer/**/*test.ts",
+    "node_modules/@erp/**/*test.ts",
+    "node_modules/@rilata/project-configs"
   ],
   "include": [
-    "src/**/*",
-    "node_modules/@rilata/**/*",
+    "src",
+    "node_modules/@rilata",
+    "node_modules/@erp",
+    "node_modules/@buildozer"
   ]
 }
