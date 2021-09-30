@@ -12,7 +12,6 @@
     "test": "yarn jasmine --config=jasmine.json"
   },
   "dependencies": {
-    "@rilata/project-configs": "gis-expert/project-configs",
     "reflect-metadata": "^0.1.13"
   },
   "devDependencies": {
@@ -24,6 +23,7 @@
     "@babel/plugin-transform-modules-commonjs": "^7.15.4",
     "@babel/preset-env": "^7.11.5",
     "@babel/preset-typescript": "^7.12.7",
+    "@rilata/project-configs": "gis-expert/project-configs",
     "@types/fetch-mock": "^7.3.5",
     "@types/jasmine": "^3.9.1",
     "@types/node": "^16.10.2",
