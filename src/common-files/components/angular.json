@@ -7,7 +7,7 @@
       "projectType": "library",
       "root": "src",
       "sourceRoot": "src/components",
-      "prefix": "auth",
+      "prefix": "<PACKAGE_NAME>",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
