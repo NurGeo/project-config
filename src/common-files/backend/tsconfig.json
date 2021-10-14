@@ -9,5 +9,6 @@
   ],
   "exclude": [
     "node_modules/@rilata/**/frontend/**/*",
+    "node_modules/@rilata/**/components/**/*",
   ]
 }
