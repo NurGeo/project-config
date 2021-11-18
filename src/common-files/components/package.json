@@ -54,7 +54,7 @@
     "@angular-eslint/template-parser": "12.2.0",
     "@angular/cli": "~12.0.4",
     "@angular/compiler-cli": "~12.0.5",
-    "@rilata/project-configs": "gis-expert/project-configs",
+    "@rilata/project-configs": "gis-expert/rilata-project-configs",
     "@types/jasmine": "~3.6.0",
     "codelyzer": "^6.0.0",
     "eslint-plugin-jasmine": "^4.1.2",

@@ -5,7 +5,7 @@
   "author": "GIS Expert",
   "license": "ISC",
   "private": false,
-  "repository": "git@github.com:gis-expert/project-configs.git",
+  "repository": "git@github.com:gis-expert/rilata-project-configs.git",
   "scripts": {
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
     "test:unit": "jest -c jest.unit-config.js",
