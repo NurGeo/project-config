@@ -1,18 +1,22 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MobileAppModule } from './mobile-app/mobile-app.module';
+import { WebAppModule } from './web-app/web-app.module';
+import { SelectModePageComponent } from '../pages/select-mode/select-mode-page.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SelectModePageComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    WebAppModule,
+    MobileAppModule,
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule { }
