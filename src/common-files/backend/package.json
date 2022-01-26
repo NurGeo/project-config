@@ -15,7 +15,7 @@
     "test:all": "jest -c jest.all-config.js --runInBand"
   },
   "dependencies": {
-    "dotenv": "^10.0.0",
+    "dotenv": "^14.3.2",
     "reflect-metadata": "^0.1.13",
     "@rilata/project-configs": "gis-expert/rilata-project-configs"
   },
