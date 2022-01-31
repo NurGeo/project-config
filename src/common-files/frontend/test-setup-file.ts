@@ -1,4 +1,4 @@
-import { SpecReporter } from 'jasmine-spec-reporter';
+import { SpecReporter, StacktraceOption } from 'jasmine-spec-reporter';
 import CustomReporter = jasmine.CustomReporter;
 
 const reporter = new SpecReporter({
@@ -7,6 +7,7 @@ const reporter = new SpecReporter({
     displayPending: true,
     displaySuccessful: true,
     displayFailed: true,
+    displayStacktrace: StacktraceOption.PRETTY,
   },
 }) as unknown as CustomReporter;
 
@@ -17,19 +18,19 @@ jasmine.getEnv().addReporter(reporter);
 class MockStorage {
   storage = new Map()
 
-  setItem(key: string, value: string) {
+  setItem(key: string, value: string): void {
     this.storage.set(key, value);
   }
 
-  getItem(key: string) {
+  getItem(key: string): unknown {
     return this.storage.get(key);
   }
 
-  removeItem(key: string) {
+  removeItem(key: string): void {
     this.storage.delete(key);
   }
 
-  clear() {
+  clear(): void {
     this.storage = new Map();
   }
 }

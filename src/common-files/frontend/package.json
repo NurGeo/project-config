@@ -26,7 +26,6 @@
     "@rilata/project-configs": "gis-expert/rilata-project-configs",
     "@types/fetch-mock": "^7.3.5",
     "@types/jasmine": "^3.9.1",
-    "@types/node": "^16.10.2",
     "@typescript-eslint/eslint-plugin": "^5.10.1",
     "@typescript-eslint/parser": "^5.10.1",
     "babel-eslint": "^10.0.3",
