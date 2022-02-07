@@ -10,6 +10,7 @@ module.exports = {
   extends: [
     'airbnb-base',
     'plugin:@typescript-eslint/recommended',
+    'namespace-fixtures',
   ],
   root: true,
   ignorePatterns: ['.eslintrc.ts', '*.js', 'dist/*'],
@@ -42,5 +43,9 @@ module.exports = {
     '@typescript-eslint/no-explicit-any': 'warn',
     '@typescript-eslint/ban-ts-comment': 'off',
     '@typescript-eslint/no-namespace': 'off',
+
+    // custom
+    'namespace-fixtures/namespace-fixture-name-rule': 'warn',
+    'namespace-fixtures/import-namespace-fixture-rule': 'warn',
   },
 };
