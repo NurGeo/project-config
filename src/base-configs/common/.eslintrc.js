@@ -5,12 +5,12 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: [
-    '@typescript-eslint/eslint-plugin'
+    '@typescript-eslint/eslint-plugin',
+    'namespace-fixtures',
   ],
   extends: [
     'airbnb-base',
     'plugin:@typescript-eslint/recommended',
-    'namespace-fixtures',
   ],
   root: true,
   ignorePatterns: ['.eslintrc.ts', '*.js', 'dist/*'],
