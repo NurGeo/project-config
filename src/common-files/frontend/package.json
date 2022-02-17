@@ -9,7 +9,7 @@
   "scripts": {
     "lint": "yarn eslint \"src/**/*.ts\" --fix",
     "build": "yarn tsc --project tsconfig.json",
-    "test": "yarn jasmine --config=jasmine.json"
+    "test": "yarn build & yarn jasmine --config=jasmine.json"
   },
   "dependencies": {
     "reflect-metadata": "^0.1.13"
