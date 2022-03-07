@@ -36,6 +36,7 @@ module.exports = {
     'linebreak-style': 'off',
     'no-console': [process.env.NODE_ENV === 'development' ? 'off' : 'error'],
     'no-alert': [process.env.NODE_ENV === 'development' ? 'off' : 'error'],
+    "no-shadow": "off",
 
     // typescript
     '@typescript-eslint/explicit-module-boundary-types': 'warn',
@@ -43,6 +44,7 @@ module.exports = {
     '@typescript-eslint/no-explicit-any': 'warn',
     '@typescript-eslint/ban-ts-comment': 'off',
     '@typescript-eslint/no-namespace': 'off',
+    "@typescript-eslint/no-shadow": ["error"],
 
     // custom
     'namespace-fixtures/namespace-fixture-name-rule': 'warn',
