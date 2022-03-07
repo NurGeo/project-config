@@ -8,10 +8,10 @@
   "repository": "git@github.com:<REPO_ADDRESS>.git",
   "scripts": {
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
-    "test:unit": "jest -c jest.unit-config.js",
-    "test:int": "jest -c jest.int-config.js --runInBand",
-    "test:comp": "jest -c jest.comp-congitfig.js --runInBand",
-    "test:all": "jest -c jest.all-config.js --runInBand"
+    "test:unit": "NODE_ENV=dev jest -c jest.unit-config.js",
+    "test:int": "NODE_ENV=dev jest -c jest.int-config.js --runInBand",
+    "test:comp": "NODE_ENV=dev jest -c jest.comp-congitfig.js --runInBand",
+    "test:all": "NODE_ENV=dev jest -c jest.all-config.js --runInBand"
   },
   "dependencies": {
     "dotenv": "^14.3.2",
