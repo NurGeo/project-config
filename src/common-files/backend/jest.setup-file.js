@@ -1,5 +1,6 @@
 import 'reflect-metadata';
-import * as dotenv from 'dotenv';
 
-dotenv.config();
-process.env.mode = 'dev';
+// Config EnvManager here. Example:
+// beforeAll(() => {
+//   new OnlineStoreEnvManager('./dev.env').config();
+// });
