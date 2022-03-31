@@ -1,6 +1,6 @@
-import 'reflect-metadata';
+// Init env variables as is shown below.
 
-// Config EnvManager here. Example:
-// beforeAll(() => {
-//   new OnlineStoreEnvManager('./dev.env').config();
-// });
+// import { OnlineStoreEnvManager } from './src/infra/repository/typeorm/testdb-integration-test/online-store.module/src/conf/online-store.env-manager';
+// new OnlineStoreEnvManager().config();
+
+jest.setTimeout(300000);

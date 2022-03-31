@@ -40,6 +40,12 @@ tsconfig.tsbuildinfo
 # locks
 yarn.lock
 package-lock.json
+tags.lock
+
+# other
+tags
+tags.temp
+/temp
 
 # env
 .env
