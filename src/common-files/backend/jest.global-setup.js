@@ -5,5 +5,5 @@ import 'reflect-metadata';
 // import { fsUtility } from './src/utility/fs-utility';
 
 export default async function () {
-  fsUtility.removeDirSync(`${process.cwd()}/temp/tests`);
+  fsUtility.removeSync(`${process.cwd()}/temp/tests`);
 }
