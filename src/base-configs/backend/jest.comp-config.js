@@ -6,4 +6,5 @@ module.exports = {
   ...jestCompConfig,
   globalSetup: "./jest.global-setup.js",
   globalTeardown: "./jest.global-teardown.js",
+  slowTestThreshold: 20,
 };
