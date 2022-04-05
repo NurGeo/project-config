@@ -45,7 +45,7 @@ tags.lock
 # other
 tags
 tags.temp
-/temp
+/.temp
 
 # env
 .env
