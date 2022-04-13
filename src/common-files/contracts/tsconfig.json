@@ -1,0 +1,14 @@
+{
+  "extends": "@rilata/project-configs/src/base-configs/contracts/tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+  },
+  "include": [
+    "src/**/*",
+    "node_modules/@rilata/**/*",
+  ],
+  "exclude": [
+    "node_modules/@rilata/**/frontend/**/*",
+    "node_modules/@rilata/**/components/**/*",
+  ]
+}
