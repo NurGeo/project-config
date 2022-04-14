@@ -8,10 +8,10 @@
   "repository": "git@github.com:<REPO_ADDRESS>.git",
   "scripts": {
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
-    "test:unit": "NODE_ENV=dev <MODULE_NAME>_ENV_FILE_PATH=dev.env jest -c jest.unit-config.js",
-    "test:int": "NODE_ENV=dev <MODULE_NAME>_ENV_FILE_PATH=dev.env jest -c jest.int-config.js --runInBand --forceExit",
-    "test:comp": "NODE_ENV=dev <MODULE_NAME>_ENV_FILE_PATH=dev.env jest -c jest.comp-congitfig.js --runInBand --forceExit",
-    "test:all": "NODE_ENV=dev <MODULE_NAME>_ENV_FILE_PATH=dev.env jest -c jest.all-config.js --runInBand --forceExit"
+    "test:unit": "NODE_ENV=test <MODULE_NAME>_ENV_FILE_PATH=test.env jest -c jest.unit-config.js",
+    "test:int": "NODE_ENV=test <MODULE_NAME>_ENV_FILE_PATH=test.env jest -c jest.int-config.js --runInBand --forceExit",
+    "test:comp": "NODE_ENV=test <MODULE_NAME>_ENV_FILE_PATH=test.env jest -c jest.comp-congitfig.js --runInBand --forceExit",
+    "test:all": "NODE_ENV=test <MODULE_NAME>_ENV_FILE_PATH=test.env jest -c jest.all-config.js --runInBand --forceExit"
   },
   "dependencies": {
     "dotenv": "^14.3.2",

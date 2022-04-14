@@ -51,3 +51,4 @@ tags.temp
 .env
 dev.env
 prod.env
+test.env
