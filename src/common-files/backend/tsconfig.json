@@ -5,6 +5,9 @@
   },
   "include": [
     "src/**/*",
+    "jest.setup-file.ts",
+    "jest.global-setup.ts",
+    "jest.global-teardown.ts",
     "node_modules/@rilata/**/*",
   ],
   "exclude": [
