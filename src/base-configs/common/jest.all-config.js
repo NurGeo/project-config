@@ -1,3 +1,3 @@
 module.exports = {
-  testRegex: ['.*\\.((i|comp)-)?test\\.ts$'],
+  testRegex: ['.*\\.((i|c)-)?test\\.ts$'],
 };
