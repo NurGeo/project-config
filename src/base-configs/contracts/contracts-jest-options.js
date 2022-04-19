@@ -5,6 +5,6 @@ module.exports = {
   setupFilesAfterEnv: ["./jest.setup-file.ts"],
   testEnvironment: "node",
   transform: {
-    "\\.[t]s?$": 'ts-jest',
+    "\\.ts$": 'ts-jest',
   },
 };
