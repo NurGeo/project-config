@@ -1,7 +1,7 @@
-const backendJestOptions = require('./backend-jest-options');
+const contractsJestOptions = require('./contracts-jest-options');
 const jestUnitConfig = require('../common/jest.unit-config');
 
 module.exports = {
-  ...backendJestOptions,
+  ...contractsJestOptions,
   ...jestUnitConfig,
 };
