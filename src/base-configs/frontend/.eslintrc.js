@@ -13,6 +13,7 @@ module.exports = {
       ],
       parserOptions: {
         project: [
+          './tsconfig.json',
           './tsconfig.build.json',
           './tsconfig.spec.json',
         ],
@@ -28,6 +29,7 @@ module.exports = {
       ],
       parserOptions: {
         project: [
+          './tsconfig.json',
           './tsconfig.build.json',
           './tsconfig.spec.json',
         ],
@@ -43,6 +45,7 @@ module.exports = {
       ],
       parserOptions: {
         project: [
+          './tsconfig.json',
           './tsconfig.build.json',
           './tsconfig.spec.json',
         ],
