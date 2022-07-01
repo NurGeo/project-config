@@ -14,8 +14,6 @@ module.exports = {
       parserOptions: {
         project: [
           './tsconfig.json',
-          './tsconfig.build.json',
-          './tsconfig.spec.json',
         ],
         createDefaultProgram: true,
       },
@@ -30,8 +28,6 @@ module.exports = {
       parserOptions: {
         project: [
           './tsconfig.json',
-          './tsconfig.build.json',
-          './tsconfig.spec.json',
         ],
         createDefaultProgram: true,
       },
@@ -46,8 +42,6 @@ module.exports = {
       parserOptions: {
         project: [
           './tsconfig.json',
-          './tsconfig.build.json',
-          './tsconfig.spec.json',
         ],
         createDefaultProgram: true,
       },
