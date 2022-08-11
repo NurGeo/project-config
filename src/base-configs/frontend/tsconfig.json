@@ -3,8 +3,9 @@
   "compilerOptions": {
     "downlevelIteration": true,
     "declaration": true,
+    "target": "ES2017",
     "lib": [
-      "es2018",
+      "ES2017",
       "dom"
     ],
     "types": [
