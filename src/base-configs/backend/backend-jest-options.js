@@ -1,3 +1,4 @@
+
 const commonJestOptions = require('../common/common-jest-options');
 
 module.exports = {
