@@ -49,6 +49,6 @@ tags.temp
 
 # env
 .env
-dev.env
-prod.env
+development.env
+production.env
 test.env
