@@ -41,6 +41,7 @@ tsconfig.tsbuildinfo
 yarn.lock
 package-lock.json
 tags.lock
+pnpm-lock.yaml
 
 # other
 tags

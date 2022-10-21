@@ -8,15 +8,6 @@
     "pollifill.ts",
   ],
   "include": [
-    "./node_modules/@rilata",
-    "./node_modules/@anthill",
-    "./node_modules/@buildozer",
     "src"
   ],
-  "exclude": [
-    "node_modules/@rilata/project-configs",
-    "./node_modules/@rilata/**/*.test.ts",
-    "./node_modules/@anthill/**/*.test.ts",
-    "./node_modules/@buildozer/**/*.test.ts",
-  ]
 }
