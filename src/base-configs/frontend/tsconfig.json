@@ -1,6 +1,7 @@
 {
   "extends": "../common/tsconfig.json",
   "compilerOptions": {
+    "useDefineForClassFields": false,
     "downlevelIteration": true,
     "declaration": true,
     "target": "ES2022",
