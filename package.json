@@ -1,11 +1,11 @@
 {
-  "name": "@rilata/project-configs",
+  "name": "nurgeo-project-configs",
   "version": "0.0.0",
   "description": "",
   "author": "GIS Expert",
   "license": "ISC",
   "private": false,
-  "repository": "git@github.com:gis-expert/rilata-project-configs.git",
+  "repository": "git@github.com:NurGeo/project-config.git",
   "scripts": {
   },
   "dependencies": {
