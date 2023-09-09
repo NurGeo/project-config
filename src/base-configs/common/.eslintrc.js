@@ -6,7 +6,7 @@ module.exports = {
   },
   plugins: [
     '@typescript-eslint/eslint-plugin',
-    'namespace-fixtures',
+    // 'namespace-fixtures',
   ],
   extends: [
     'airbnb-base',
@@ -47,7 +47,7 @@ module.exports = {
     "@typescript-eslint/no-shadow": ["error"],
 
     // custom
-    'namespace-fixtures/namespace-fixture-name-rule': 'warn',
-    'namespace-fixtures/import-namespace-fixture-rule': 'warn',
+    // 'namespace-fixtures/namespace-fixture-name-rule': 'warn',
+    // 'namespace-fixtures/import-namespace-fixture-rule': 'warn',
   },
 };
